@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Monoton', sans-serif;
+}
+
+.navbar{
+    background: #131313;
+    padding: 1rem 8rem;
+    font-family: Monoton;
+}
+
+.navbar .navbar-brand{
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+#navbarSupportedContact > ul > li:nth-child(n)> a{
+    font-color: #fff;
+    font-size: 1.1rem;
+    padding: 0 0.8rem;
+}
+
+#navbarSupportedContact > ul > li:nth-child(n)> a:hover{
+    color: #000f85;
+    
+}
+
+#navbarSupportedContact > button{
+    background: #000f85;
+    font-weight: 600;
+    padding: 0.4rem 1.4rem;
+    border-radius: 30px;
+}
